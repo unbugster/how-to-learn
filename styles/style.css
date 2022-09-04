@@ -3,6 +3,7 @@
   --color-bg-gray: #F2F2F2;
   --color-link-blue: #2f80ed;
   --color-text-black: #000000;
+  --color-text-white: #FFFFFF;
 }
 
 * {
@@ -14,7 +15,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: var(--color-text-black)
+  color: var(--color-text-black);
 }
 
 .link {
@@ -238,16 +239,16 @@
 }
 
 .section-title_theme_dark {
-  color: var(--color-bg-gray)
+  color: var(--color-text-white);
 }
 
 .section-subtitle_theme_dark {
-  color: var(--color-bg-gray)
+  color: var(--color-text-white);
 }
 
 .table__sell_theme_dark {
   width: 200px;
-  color: var(--color-bg-gray)
+  color: var(--color-text-white);
 }
 
 .kaufman__triangle {
@@ -281,7 +282,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: var(--color-bg-gray);
+  color: var(--color-text-white);
 }
 
 .footer__author {
@@ -293,7 +294,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px 0;
-  color: var(--color-bg-gray);
+  color: var(--color-text-white);
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -319,7 +320,7 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: var(--color-bg-gray);
+  color: var(--color-text-white);
   display: flex;
   align-items: center;
 }
