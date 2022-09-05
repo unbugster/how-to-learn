@@ -6,10 +6,6 @@
   --color-text-white: #FFFFFF;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -98,11 +94,13 @@
 .logo_place_header {
   position: absolute;
   top: 30px;
+  left: 64px;
   z-index: 2;
 }
 
 .header__title {
   max-width: 730px;
+  margin: 0;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -111,8 +109,10 @@
 
 .header__subtitle {
   max-width: 388px;
+  margin: 0;
   position: absolute;
   bottom: 30px;
+  left: 64px;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -120,6 +120,8 @@
 }
 
 .header__main-illustration {
+  width: 765px;
+  height: 608px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -153,6 +155,7 @@
 
 .two-columns__brief {
   max-width: 175px;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
@@ -165,7 +168,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
@@ -199,10 +201,11 @@
   padding-top: 100px;
   text-align: center;
   position: relative;
+  box-sizing: border-box;
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
   margin: 0 auto;
   margin-bottom: 70px;
   line-height: 1.15;
@@ -211,6 +214,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
@@ -256,6 +260,7 @@
   width: 877px;
   height: 877px;
   right: -210px;
+  top: 0;
   background: center no-repeat url("../images/kaufman-triangle.svg");
   background-size: contain;
   z-index: 0;
@@ -269,6 +274,7 @@
   background-color: var(--color-bg-dark-gray);
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -287,6 +293,7 @@
 
 .footer__author {
   padding: 18px 0;
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -300,22 +307,13 @@
   font-weight: 600;
 }
 
-.footer__column-list {
+.footer__column-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
-}
-
-.footer__column-item {
-  display: flex;
-  align-items: center;
-}
-
-.footer__column-item:not(:last-child) {
-  margin-bottom: 10px;
 }
 
 .footer__column-link {
