@@ -56,7 +56,7 @@
   z-index: 1;
 }
 
-.table__sell {
+.table__cell {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -125,6 +125,8 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  object-fit: contain;
+  object-position: right;
   z-index: 1;
 }
 
@@ -250,7 +252,7 @@
   color: var(--color-text-white);
 }
 
-.table__sell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: var(--color-text-white);
 }
