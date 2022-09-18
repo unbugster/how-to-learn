@@ -14,6 +14,7 @@
 @import url(../blocks/logo/__place/logo_place_header.css);
 
 @import url(../blocks/table/table.css);
+@import url(../blocks/table/_spacing/table_spacing_enlarged.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
